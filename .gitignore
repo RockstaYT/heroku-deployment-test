@@ -41,8 +41,13 @@ build/Release
 node_modules/
 jspm_packages/
 
+<<<<<<< HEAD
+# Snowpack dependency directory (https://snowpack.dev/)
+web_modules/
+=======
 # TypeScript v1 declaration files
 typings/
+>>>>>>> 94a8b2c5470beb6be3a70258de97a92f5491cd07
 
 # TypeScript cache
 *.tsbuildinfo
@@ -74,6 +79,10 @@ typings/
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
+<<<<<<< HEAD
+.parcel-cache
+=======
+>>>>>>> 94a8b2c5470beb6be3a70258de97a92f5491cd07
 
 # Next.js build output
 .next
@@ -84,7 +93,11 @@ dist
 
 # Gatsby files
 .cache/
+<<<<<<< HEAD
+# Comment in the public line in if your project uses Gatsby and not Next.js
+=======
 # Comment in the public line in if your project uses Gatsby and *not* Next.js
+>>>>>>> 94a8b2c5470beb6be3a70258de97a92f5491cd07
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
 
@@ -102,3 +115,16 @@ dist
 
 # TernJS port file
 .tern-port
+<<<<<<< HEAD
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# yarn v2
+
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.pnp.*
+=======
+>>>>>>> 94a8b2c5470beb6be3a70258de97a92f5491cd07
